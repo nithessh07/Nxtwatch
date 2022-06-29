@@ -1,0 +1,99 @@
+.video-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 270px;
+  margin-left: 20px;
+  margin-bottom: 50px;
+}
+
+.link-item {
+  text-decoration: none;
+}
+
+.video-card-image {
+  width: 270px;
+}
+
+@media screen and (max-width: 576px) {
+  .video-card-container {
+    width: 100%;
+    margin-left: 0px;
+    margin-bottom: 10px;
+  }
+  .video-card-image {
+    width: 100%;
+  }
+}
+
+.video-card-profile-container {
+  display: flex;
+}
+
+@media screen and (max-width: 576px) {
+  .video-card-profile-container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+.video-card-profile-image {
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.video-card-profile-title-light {
+  font-size: 14px;
+  font-weight: 500;
+  color: #181818;
+}
+
+.video-card-profile-title-dark {
+  font-size: 14px;
+  font-weight: 500;
+  color: #ebebeb;
+}
+
+.video-card-profile {
+  font-size: 14px;
+  font-weight: 500;
+  color: #181818;
+}
+
+.video-card-profile-name-light {
+  font-size: 11px;
+  font-weight: 500;
+  color: #606060;
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+
+.video-card-profile-name-dark {
+  font-size: 11px;
+  font-weight: 500;
+  color: #909090;
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+
+.video-card-views-container {
+  display: flex;
+}
+
+.video-card-profile-views-light {
+  font-size: 11px;
+  font-weight: 500;
+  margin-left: 5px;
+  margin-top: 5px;
+  color: #606060;
+}
+
+.video-card-profile-views-dark {
+  font-size: 11px;
+  font-weight: 500;
+  margin-left: 5px;
+  margin-top: 5px;
+  color: #909090;
+}
